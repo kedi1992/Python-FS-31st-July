@@ -1,0 +1,33 @@
+Introduction to Python
+
+
+1. Setting Up the Environment:
+	- Installing Python
+	- Introduction to Integrated Development Environments (IDEs) like PyCharm
+	
+	
+2. Basic Concepts
+	- What is Python?
+	- First Python Program
+
+3. Understanding Python's Internal Execution
+	- Interpreted vs. Compiled Languages
+	- Introduction to the Python interpreter
+	- Execution Steps:
+		Read Source Code
+		Convert to Bytecode:
+			- The Python code is compiled into an intermediate form called bytecode. 
+			  Bytecode is a low-level set of instructions that is platform-independent. 
+		Python Virtual Machine (PVM)
+			- The compiled bytecode is executed by the Python Virtual Machine (PVM). 
+			- The PVM is a stack-based virtual machine that interprets the bytecode instructions
+			- Loading Modules
+			- Memory Management
+
+
+Hands-On Practice
+- PEP8 
+- Simple exercises to practice variable assignments, basic operations, 
+and string manipulations.
+- Writing small programs, like a simple calculator or a program that takes 
+user input and prints a formatted message.
