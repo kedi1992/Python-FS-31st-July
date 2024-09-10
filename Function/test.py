@@ -1,7 +1,7 @@
-def factorial(n):
-    if n == 0:
-        return 1
-    else:
-        return n * factorial(n - 1)
+def add_num(a, b, c):
+    return a + b + c
 
-print(factorial(5))
+
+
+result = map(add_num, [10, 20, 30], (40, 50, 60), {70, 80, 90})
+print(list(result))
