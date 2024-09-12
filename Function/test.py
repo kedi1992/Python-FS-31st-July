@@ -1,7 +1,11 @@
-def add_num(a, b, c):
-    return a + b + c
+student_info = {
+    10 : "ABC",
+    20: 80,
+    30: "pune",
+}
+
+print(student_info[10])
 
 
 
-result = map(add_num, [10, 20, 30], (40, 50, 60), {70, 80, 90})
-print(list(result))
+data = [1,2,3,4,5,6,7,8,8,9,9,10]
